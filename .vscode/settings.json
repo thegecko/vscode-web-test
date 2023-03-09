@@ -1,0 +1,7 @@
+{
+    "remote.extensionKind": {
+        "arm-debug.mock-debug-test": [
+            "ui"
+        ]
+    }
+}
