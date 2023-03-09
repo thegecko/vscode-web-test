@@ -7,6 +7,7 @@ Repository for recreating the issue outlined at:
 ## vscode.dev
 
 Extension host used: UI
+
 Status: WORKING
 
 - Clone this repository
@@ -19,6 +20,7 @@ Status: WORKING
 ## codespaces (remote)
 
 Extension host used: REMOTE
+
 Status: WORKING
 
 - Create a codespace on this repository and open it
@@ -29,6 +31,7 @@ Status: WORKING
 ## codespaces (local)
 
 Extension host used: UI
+
 Status: BROKEN
 
 - Create a codespace on this repository and open it
@@ -36,15 +39,20 @@ Status: BROKEN
 - Start a debug session for 'Debug readme.md'
 - Observe the file sent from the debugger to the UI fails to open:
 
+<img width="839" alt="Screenshot 2023-03-09 at 16 45 18" src="https://user-images.githubusercontent.com/61341/224093257-93a3c2dd-e998-40e8-b387-ac55c931b872.png">
+
 ## github.dev
 
 Extension host used: UI
+
 Status: BROKEN
 
 - Hit the `.` key or open https://github.dev/thegecko/vscode-web-test
 - Install the recommended extension `arm-debug.mock-debug-test`
 - Start a debug session for 'Debug readme.md'
 - Observe the file sent from the debugger to the UI fails to open:
+
+<img width="839" alt="Screenshot 2023-03-09 at 16 45 18" src="https://user-images.githubusercontent.com/61341/224093257-93a3c2dd-e998-40e8-b387-ac55c931b872.png">
 
 # Log information
 
