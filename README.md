@@ -2,6 +2,18 @@
 
 Repository for recreating the issue outlined at:
 
+- https://github.com/orgs/community/discussions/44904
+- https://github.com/microsoft/vscode-mock-debug/issues/89
+- https://github.com/microsoft/vscode/issues/171991
+
+# Test Extension Notes
+
+- This demo uses a modified version of [Mock Debug]() in order to add logging and fix some file schemas. This can be found here:
+https://github.com/thegecko/vscode-mock-debug/tree/mock-debug-test
+
+- As it's not possible to sideload browser extensions in codespaces or github.dev, this extension has had to be published here:
+https://marketplace.visualstudio.com/items?itemName=arm-debug.mock-debug-test
+
 # Setup
 
 ## vscode.dev
@@ -66,11 +78,3 @@ Follow these steps to view the debug adapter protocol traffic and debug logging:
 
 - Open the output pane
 - Select the `Mock Debug` channel from the dropdown 
-
-# Notes
-
-- This demo uses a modified version of [Mock Debug]() in order to add logging and fix some file schemas. This can be found here:
-https://github.com/thegecko/vscode-mock-debug/tree/mock-debug-test
-
-- As it's not possible to sideload browser extensions in codespaces or github.dev, this extension has had to be published here:
-https://marketplace.visualstudio.com/items?itemName=arm-debug.mock-debug-test
