@@ -5,7 +5,7 @@
 			"type": "mock",
 			"request": "launch",
 			"name": "Debug readme.md",
-			"program": "${workspaceFolder}/readme.md",
+			"program": "${workspaceFolder}/README.md",
 			"stopOnEntry": true,
 			"trace": false
 		}
