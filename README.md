@@ -8,10 +8,10 @@ Repository for recreating the issue outlined at:
 
 # Test Extension Notes
 
-- This demo uses a modified version of [Mock Debug]() in order to add logging and fix some file schemas. This can be found here:
+- This demo uses a modified version of [Mock Debug](https://github.com/microsoft/vscode-mock-debug) in order to fix file schemas. Source for this can be found here:
 https://github.com/thegecko/vscode-mock-debug/tree/mock-debug-test
 
-- As it's not possible to sideload browser extensions in codespaces or github.dev, this extension has had to be published here:
+- As it's not possible to sideload browser extensions in codespaces or github.dev, the test extension has had to be published here:
 https://marketplace.visualstudio.com/items?itemName=arm-debug.mock-debug-test
 
 # Setup
@@ -31,7 +31,6 @@ Status: WORKING
 
 <img width="1021" alt="Screenshot 2023-03-09 at 16 49 44" src="https://user-images.githubusercontent.com/61341/224095927-a771b807-f3aa-4051-8b49-f84674ba5334.png">
 
-
 ## codespaces (remote)
 
 Extension host used: REMOTE
@@ -44,7 +43,6 @@ Status: WORKING
 - Observe it working
 
 <img width="953" alt="Screenshot 2023-03-09 at 16 48 29" src="https://user-images.githubusercontent.com/61341/224095058-6bb2a5a9-939a-42a2-b448-31b8dd772975.png">
-
 
 ## codespaces (local)
 
@@ -71,10 +69,3 @@ Status: BROKEN
 - Observe the file sent from the debugger to the UI fails to open:
 
 <img width="839" alt="Screenshot 2023-03-09 at 16 45 18" src="https://user-images.githubusercontent.com/61341/224093257-93a3c2dd-e998-40e8-b387-ac55c931b872.png">
-
-# Log information
-
-Follow these steps to view the debug adapter protocol traffic and debug logging:
-
-- Open the output pane
-- Select the `Mock Debug` channel from the dropdown 
